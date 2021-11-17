@@ -6,10 +6,8 @@ namespace tictok
 {
     class tictacgames
     {
-        //uc1
-
-        public const char X = 'X';
-        public const char O = 'O';
+        public  char X = 'X';
+        public char O = 'O';
 
         char[] Board = new char[10];
         public void gameBoard()
@@ -20,9 +18,8 @@ namespace tictok
                 Board[i] = ' ';
             }
         }
-        //uc2
 
-        public void abillityToInput()
+        public void AbilityToInput()
         {
             Console.WriteLine("Enter you Choice from O/X :");
             char playerChoice = Convert.ToChar(Console.ReadLine());
@@ -41,5 +38,15 @@ namespace tictok
                 Console.WriteLine("Entered invalid input  ");
             }
         }
+        public void GameBoard()
+        {
+            Console.WriteLine("|---|---|---|");
+
+            Console.WriteLine("| " + Board[1] + " | " + Board[2] + " | " + Board[3] + " | ");
+            Console.WriteLine("|---|---|---|");
+            Console.WriteLine("| " + Board[4] + " | " + Board[5] + " | " + Board[6] + " | ");
+            Console.WriteLine("|---|---|---|");
+            Console.WriteLine("| " + Board[7] + " | " + Board[8] + " | " + Board[9] + "  | ");
+            Console.WriteLine("|---|---|---|");
+        }
     }
-}
