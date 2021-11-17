@@ -28,13 +28,13 @@ namespace tictok
             char playerChoice = Convert.ToChar(Console.ReadLine());
             if (playerChoice == 'X')
             {
-                Console.WriteLine("Player Chose " + playerChoice);
-                Console.WriteLine("Computer Chose " + O);
+                Console.WriteLine("Player Choose " + playerChoice);
+                Console.WriteLine("Computer Choose " + O);
             }
             else if (playerChoice == 'O')
             {
-                Console.WriteLine("Player Chose " + playerChoice);
-                Console.WriteLine(" Computer Chose " + X);
+                Console.WriteLine("Player Choose " + playerChoice);
+                Console.WriteLine(" Computer Choose " + X);
             }
             else
             {
