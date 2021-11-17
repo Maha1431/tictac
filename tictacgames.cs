@@ -38,7 +38,7 @@ namespace tictok
             }
             else
             {
-                Console.WriteLine("Entered invalid input  ");
+                Console.WriteLine(" invalid input  ");
             }
         }
     }
