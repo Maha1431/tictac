@@ -18,7 +18,7 @@ namespace tictok
             {
                 Board[i] = ' ';
             }
-            Console.WriteLine("+Board[i]");
+            //Console.WriteLine("+Board[i]");
         }
     }
 }
