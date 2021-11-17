@@ -22,7 +22,7 @@ namespace tictok
         }
         //uc2
 
-        public void abillityToInput()
+        public void AbillityToInput()
         {
             Console.WriteLine("Enter you Choice from O/X :");
             char playerChoice = Convert.ToChar(Console.ReadLine());
