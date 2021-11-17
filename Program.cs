@@ -9,10 +9,10 @@ namespace tictok
             Console.WriteLine("Hello World!");
             tictacgames obj = new tictacgames();
             obj.gameBoard();
-            Console.WriteLine("board[i]");
-           
-            
+            obj.abillityToInput();
         }
+
     }
 }
+
 
