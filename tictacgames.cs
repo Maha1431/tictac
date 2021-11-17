@@ -8,8 +8,8 @@ namespace tictok
     {
         //uc1
 
-        public const char X = 'X';
-        public const char O = 'O';
+        public  char X = 'X';
+        public  char O = 'O';
 
         char[] Board = new char[10];
         public void gameBoard()
